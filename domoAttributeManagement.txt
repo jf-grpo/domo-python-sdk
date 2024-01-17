@@ -1,0 +1,22 @@
+#These are the attributes available in DOMO's Governance > Attribute Management setup
+#These differ from the attributes available in the SAML (SSO) setup
+
+#Format 
+#{Attribute Name:Key}
+
+{Domain:domain} #custom attribute, created by Joe Reynolds
+{Department:department}
+{Desk Phone:deskPhoneNumber}
+{Email:emailAddress}
+{Employee ID:employeeid}
+{Hire Date:hireDate}
+{Locale:locale}
+{Location:employeeLocation}
+{Name:displayName}
+{Phone:phoneNumber}
+{Secondary email:alternateEmail}
+{Time zone:timeZone}
+{Title:title}
+
+#All data types are currently set to strings
+#All but "domain" are default system attributes of DOMO.

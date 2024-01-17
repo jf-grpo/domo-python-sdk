@@ -1,0 +1,24 @@
+#These are the user attributes available in DOMO's SAML (SSO) setup
+#See DOMO instance > Admin > Authenticationo for more details
+
+#format 
+{Attribute:XML attribute name} #description
+
+{Name:name} # The display name for the user in Domo. This is the only name field displayed in Domo.
+{Name:name.personal} # If used, this value comes before name.family and replaces "name" value.
+{Name:name.family} # If used, this value comes after name.personal and replaces "name" value.
+
+{Email:email}
+{Alternate email:email.secondary}
+{Role:role}
+{Employee ID:employeeID}
+{Hire Date:hire.date}
+{Title:title}
+{Department:department}
+{Location:location}
+{Mobile Phone:user.phone}
+{Desk Phone:desk.phone}
+{Locale:location} #Sets the preferred language, metrics, and formatting in Domo.
+# See DOMO > SAML (SSO) Attributes for valed values.
+{Timezone:timezone}
+{Group:group}
