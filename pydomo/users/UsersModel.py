@@ -5,5 +5,8 @@ class CreateUserRequest(DomoObject):
     accepted_attrs = [
         'name',
         'email',
-        'role'
+        'role',
+        'title',
+        'department',
+        'domain',
     ]
