@@ -17,3 +17,4 @@ publishPypiTest.sh
 .idea/
 build/
 pydomo.egg-info/
+domo_python_env/
