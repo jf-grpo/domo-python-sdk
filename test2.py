@@ -1,5 +1,5 @@
 from pydomo import Domo
-
+from pydomo.users import CreateUserRequest
 import os
 
 from dotenv import load_dotenv
